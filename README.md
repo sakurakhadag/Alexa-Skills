@@ -3,4 +3,4 @@ All codes are in Python 2.7
 
 Lambda Function - Skill name
 
-1. ZeroDividedByZero - Utteryly Serious Jokes
+1. ZeroDividedByZero - Utterly Serious Jokes
