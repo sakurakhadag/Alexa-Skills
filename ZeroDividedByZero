@@ -64,9 +64,6 @@ def handle_session_end_request():
 
 
 def zeroDividedByZero():
-    """ Sets the color in the session and prepares the speech to reply to the
-    user.
-    """
 
     session_attributes = {}
     card_title="0/0: Indeterminate"
@@ -200,6 +197,7 @@ def lambda_handler(event, context):
     """
     print("event.session.application.applicationId=" +
           event['session']['application']['applicationId'])
+
     if event['session']['new']:
         on_session_started({'requestId': event['request']['requestId']},
                            event['session'])
